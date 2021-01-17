@@ -1,0 +1,868 @@
+[
+    {
+        "CategoryID": 0,
+        "CategoryName": "再點一次",
+        "FoodList": []
+    },
+    {
+        "CategoryID": 1,
+        "CategoryName": "三明治",
+        "FoodList": [
+            {
+                "ID": 1,
+                "Name": "烤煎蛋",
+                "Price": 20
+            },
+            {
+                "ID": 2,
+                "Name": "蛋沙拉",
+                "Price": 30
+            },
+            {
+                "ID": 3,
+                "Name": "火腿蛋",
+                "Price": 30
+            },
+            {
+                "ID": 4,
+                "Name": "肉鬆蛋",
+                "Price": 30
+            },
+            {
+                "ID": 5,
+                "Name": "起司蛋",
+                "Price": 30
+            },
+            {
+                "ID": 6,
+                "Name": "培根蛋",
+                "Price": 35
+            },
+            {
+                "ID": 7,
+                "Name": "鮪魚蛋",
+                "Price": 35
+            },
+            {
+                "ID": 8,
+                "Name": "絞肉蛋",
+                "Price": 35
+            },
+            {
+                "ID": 9,
+                "Name": "薯餅蛋",
+                "Price": 40
+            },
+            {
+                "ID": 10,
+                "Name": "照燒蛋",
+                "Price": 40
+            },
+            {
+                "ID": 11,
+                "Name": "牛肉蛋",
+                "Price": 40
+            },
+            {
+                "ID": 12,
+                "Name": "香雞蛋",
+                "Price": 40
+            },
+            {
+                "ID": 13,
+                "Name": "鮮蝦蛋",
+                "Price": 40
+            },
+            {
+                "ID": 14,
+                "Name": "燻雞蛋",
+                "Price": 40
+            },
+            {
+                "ID": 15,
+                "Name": "花枝蛋",
+                "Price": 40
+            },
+            {
+                "ID": 16,
+                "Name": "腓力蛋",
+                "Price": 40
+            },
+            {
+                "ID": 17,
+                "Name": "里肌蛋",
+                "Price": 45
+            },
+            {
+                "ID": 18,
+                "Name": "鱈魚蛋",
+                "Price": 45
+            },
+            {
+                "ID": 19,
+                "Name": "起司豬排蛋",
+                "Price": 50
+            },
+            {
+                "ID": 20,
+                "Name": "檸檬雞柳蛋",
+                "Price": 50
+            },
+            {
+                "ID": 21,
+                "Name": "雞腿蛋",
+                "Price": 55
+            }
+        ]
+    },
+    {
+        "CategoryID": 2,
+        "CategoryName": "漢堡",
+        "FoodList": [
+            {
+                "ID": 22,
+                "Name": "蛋漢堡",
+                "Price": 25
+            },
+            {
+                "ID": 23,
+                "Name": "火腿蛋",
+                "Price": 35
+            },
+            {
+                "ID": 24,
+                "Name": "肉鬆蛋",
+                "Price": 35
+            },
+            {
+                "ID": 25,
+                "Name": "起司蛋",
+                "Price": 35
+            },
+            {
+                "ID": 26,
+                "Name": "培根蛋",
+                "Price": 40
+            },
+            {
+                "ID": 27,
+                "Name": "鮪魚蛋",
+                "Price": 40
+            },
+            {
+                "ID": 28,
+                "Name": "絞肉蛋",
+                "Price": 40
+            },
+            {
+                "ID": 29,
+                "Name": "薯餅蛋",
+                "Price": 45
+            },
+            {
+                "ID": 30,
+                "Name": "照燒蛋",
+                "Price": 45
+            },
+            {
+                "ID": 31,
+                "Name": "牛肉蛋",
+                "Price": 45
+            },
+            {
+                "ID": 32,
+                "Name": "香雞蛋",
+                "Price": 45
+            },
+            {
+                "ID": 33,
+                "Name": "鮮蝦蛋",
+                "Price": 45
+            },
+            {
+                "ID": 34,
+                "Name": "燻雞蛋",
+                "Price": 45
+            },
+            {
+                "ID": 35,
+                "Name": "花枝蛋",
+                "Price": 45
+            },
+            {
+                "ID": 36,
+                "Name": "腓力蛋",
+                "Price": 45
+            },
+            {
+                "ID": 37,
+                "Name": "里肌蛋",
+                "Price": 45
+            },
+            {
+                "ID": 38,
+                "Name": "鱈魚蛋",
+                "Price": 50
+            },
+            {
+                "ID": 39,
+                "Name": "總匯",
+                "Price": 60
+            },
+            {
+                "ID": 40,
+                "Name": "起司豬排蛋",
+                "Price": 55
+            },
+            {
+                "ID": 41,
+                "Name": "檸檬雞柳蛋",
+                "Price": 55
+            },
+            {
+                "ID": 42,
+                "Name": "雞腿蛋",
+                "Price": 60
+            }
+        ]
+    },
+    {
+        "CategoryID": 3,
+        "CategoryName": "總匯三明治",
+        "FoodList": [
+            {
+                "ID": 43,
+                "Name": "法式總匯三明治",
+                "Price": 50
+            },
+            {
+                "ID": 44,
+                "Name": "里肌總匯三明治",
+                "Price": 60
+            },
+            {
+                "ID": 45,
+                "Name": "牛肉總匯三明治",
+                "Price": 60
+            },
+            {
+                "ID": 46,
+                "Name": "海陸總匯三明治",
+                "Price": 70
+            },
+            {
+                "ID": 47,
+                "Name": "雞腿總匯三明治",
+                "Price": 70
+            }
+        ]
+    },
+    {
+        "CategoryID": 4,
+        "CategoryName": "高鈣或法式",
+        "FoodList": [
+            {
+                "ID": 48,
+                "Name": "草莓",
+                "Price": 30
+            },
+            {
+                "ID": 49,
+                "Name": "奶油",
+                "Price": 30
+            },
+            {
+                "ID": 50,
+                "Name": "香酥",
+                "Price": 30
+            },
+            {
+                "ID": 51,
+                "Name": "花生",
+                "Price": 30
+            },
+            {
+                "ID": 52,
+                "Name": "巧克力",
+                "Price": 30
+            },
+            {
+                "ID": 53,
+                "Name": "香蒜",
+                "Price": 30
+            },
+            {
+                "ID": 114,
+                "Name": "火腿",
+                "Price": 35
+            },
+            {
+                "ID": 54,
+                "Name": "起司",
+                "Price": 35
+            },
+            {
+                "ID": 55,
+                "Name": "培根",
+                "Price": 40
+            },
+            {
+                "ID": 56,
+                "Name": "鮪魚",
+                "Price": 40
+            },
+            {
+                "ID": 57,
+                "Name": "里肌",
+                "Price": 45
+            }
+        ]
+    },
+    {
+        "CategoryID": 5,
+        "CategoryName": "其他",
+        "FoodList": [
+            {
+                "ID": 58,
+                "Name": "荷包蛋(一枚)",
+                "Price": 10
+            },
+            {
+                "ID": 59,
+                "Name": "薯條",
+                "Price": 25
+            },
+            {
+                "ID": 60,
+                "Name": "熱狗",
+                "Price": 25
+            },
+            {
+                "ID": 61,
+                "Name": "熱狗炒蛋",
+                "Price": 25
+            },
+            {
+                "ID": 62,
+                "Name": "煎餃",
+                "Price": 30
+            },
+            {
+                "ID": 63,
+                "Name": "芙蓉蛋",
+                "Price": 25
+            },
+            {
+                "ID": 64,
+                "Name": "雞塊",
+                "Price": 30
+            },
+            {
+                "ID": 65,
+                "Name": "蘿蔔糕",
+                "Price": 30
+            },
+            {
+                "ID": 66,
+                "Name": "雞米花",
+                "Price": 30
+            },
+            {
+                "ID": 67,
+                "Name": "檸檬雞柳",
+                "Price": 30
+            },
+            {
+                "ID": 68,
+                "Name": "薯餅",
+                "Price": 40
+            },
+            {
+                "ID": 69,
+                "Name": "蘿蔔糕*1+蛋餅*1",
+                "Price": 35
+            },
+            {
+                "ID": 70,
+                "Name": "墨西哥餅",
+                "Price": 40
+            },
+            {
+                "ID": 71,
+                "Name": "雞肉捲",
+                "Price": 50,
+                "AddOn": [
+                    {
+                        "Name": "辣或不辣",
+                        "Options": [
+                            {
+                                "Name": "原味",
+                                "AddPrice": 0
+                            },
+                            {
+                                "Name": "辣味",
+                                "AddPrice": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "CategoryID": 6,
+        "CategoryName": "鐵板麵",
+        "FoodList": [
+            {
+                "ID": 72,
+                "Name": "咖哩鐵板麵",
+                "Price": 40,
+                "AddOn": [
+                    {
+                        "Name": "加料區",
+                        "Options": [
+                            {
+                                "Name": "加蛋",
+                                "AddPrice": 10
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ID": 73,
+                "Name": "義大利肉醬鐵板麵",
+                "Price": 40,
+                "AddOn": [
+                    {
+                        "Name": "加料區",
+                        "Options": [
+                            {
+                                "Name": "加蛋",
+                                "AddPrice": 10
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ID": 74,
+                "Name": "黑胡椒鐵板麵",
+                "Price": 40,
+                "AddOn": [
+                    {
+                        "Name": "加料區",
+                        "Options": [
+                            {
+                                "Name": "加蛋",
+                                "AddPrice": 10
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ID": 75,
+                "Name": "蘑菇鐵板麵",
+                "Price": 40,
+                "AddOn": [
+                    {
+                        "Name": "加料區",
+                        "Options": [
+                            {
+                                "Name": "加蛋",
+                                "AddPrice": 10
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "CategoryID": 7,
+        "CategoryName": "蛋餅",
+        "FoodList": [
+            {
+                "ID": 76,
+                "Name": "原味",
+                "Price": 20
+            },
+            {
+                "ID": 77,
+                "Name": "火腿",
+                "Price": 30
+            },
+            {
+                "ID": 78,
+                "Name": "肉鬆",
+                "Price": 30
+            },
+            {
+                "ID": 79,
+                "Name": "起司",
+                "Price": 30
+            },
+            {
+                "ID": 80,
+                "Name": "蔬菜",
+                "Price": 30
+            },
+            {
+                "ID": 81,
+                "Name": "玉米",
+                "Price": 30
+            },
+            {
+                "ID": 82,
+                "Name": "熱狗",
+                "Price": 30
+            },
+            {
+                "ID": 83,
+                "Name": "鮪魚",
+                "Price": 35
+            },
+            {
+                "ID": 84,
+                "Name": "培根",
+                "Price": 35
+            },
+            {
+                "ID": 85,
+                "Name": "薯餅",
+                "Price": 40
+            },
+            {
+                "ID": 86,
+                "Name": "里肌",
+                "Price": 40
+            },
+            {
+                "ID": 87,
+                "Name": "九培根",
+                "Price": 45
+            },
+            {
+                "ID": 88,
+                "Name": "九鮪魚",
+                "Price": 45
+            },
+            {
+                "ID": 89,
+                "Name": "九里肌",
+                "Price": 45
+            },
+            {
+                "ID": 90,
+                "Name": "怪怪",
+                "Price": 50
+            }
+        ]
+    },
+    {
+        "CategoryID": 8,
+        "CategoryName": "果醬(吐司/厚片)",
+        "FoodList": [
+            {
+                "ID": 91,
+                "Name": "草莓吐司",
+                "Price": 15
+            },
+            {
+                "ID": 92,
+                "Name": "奶油吐司",
+                "Price": 15
+            },
+            {
+                "ID": 93,
+                "Name": "奶酥吐司",
+                "Price": 15
+            },
+            {
+                "ID": 94,
+                "Name": "草莓厚片",
+                "Price": 25
+            },
+            {
+                "ID": 95,
+                "Name": "奶油厚片",
+                "Price": 25
+            },
+            {
+                "ID": 96,
+                "Name": "奶酥厚片",
+                "Price": 25
+            },
+            {
+                "ID": 97,
+                "Name": "花生吐司",
+                "Price": 15
+            },
+            {
+                "ID": 98,
+                "Name": "巧克力吐司",
+                "Price": 15
+            },
+            {
+                "ID": 99,
+                "Name": "香蒜吐司",
+                "Price": 15
+            },
+            {
+                "ID": 100,
+                "Name": "花生厚片",
+                "Price": 25
+            },
+            {
+                "ID": 101,
+                "Name": "巧克力厚片",
+                "Price": 25
+            },
+            {
+                "ID": 102,
+                "Name": "香蒜厚片",
+                "Price": 25
+            }
+        ]
+    },
+    {
+        "CategoryID": 9,
+        "CategoryName": "飲料",
+        "FoodList": [
+            {
+                "ID": 103,
+                "Name": "奶茶",
+                "Price": 10,
+                "AddOn": [
+                    {
+                        "Name": "飲料大小",
+                        "Options": [
+                            {
+                                "Name": "小",
+                                "AddPrice": 0
+                            },
+                            {
+                                "Name": "中",
+                                "AddPrice": 5
+                            },
+                            {
+                                "Name": "大",
+                                "AddPrice": 10
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ID": 104,
+                "Name": "紅茶",
+                "Price": 10,
+                "AddOn": [
+                    {
+                        "Name": "飲料大小",
+                        "Options": [
+                            {
+                                "Name": "小",
+                                "AddPrice": 0
+                            },
+                            {
+                                "Name": "中",
+                                "AddPrice": 5
+                            },
+                            {
+                                "Name": "大",
+                                "AddPrice": 10
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ID": 105,
+                "Name": "綠茶",
+                "Price": 10,
+                "AddOn": [
+                    {
+                        "Name": "飲料大小",
+                        "Options": [
+                            {
+                                "Name": "小",
+                                "AddPrice": 0
+                            },
+                            {
+                                "Name": "中",
+                                "AddPrice": 5
+                            },
+                            {
+                                "Name": "大",
+                                "AddPrice": 10
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ID": 106,
+                "Name": "奶綠",
+                "Price": 10,
+                "AddOn": [
+                    {
+                        "Name": "飲料大小",
+                        "Options": [
+                            {
+                                "Name": "小",
+                                "AddPrice": 0
+                            },
+                            {
+                                "Name": "中",
+                                "AddPrice": 5
+                            },
+                            {
+                                "Name": "大",
+                                "AddPrice": 10
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ID": 107,
+                "Name": "豆漿",
+                "Price": 10,
+                "AddOn": [
+                    {
+                        "Name": "飲料大小",
+                        "Options": [
+                            {
+                                "Name": "小",
+                                "AddPrice": 0
+                            },
+                            {
+                                "Name": "中",
+                                "AddPrice": 5
+                            },
+                            {
+                                "Name": "大",
+                                "AddPrice": 10
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ID": 108,
+                "Name": "薏仁漿",
+                "Price": 15,
+                "AddOn": [
+                    {
+                        "Name": "飲料大小",
+                        "Options": [
+                            {
+                                "Name": "小",
+                                "AddPrice": 0
+                            },
+                            {
+                                "Name": "中",
+                                "AddPrice": 5
+                            },
+                            {
+                                "Name": "大",
+                                "AddPrice": 10
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ID": 109,
+                "Name": "柳橙汁",
+                "Price": 15,
+                "AddOn": [
+                    {
+                        "Name": "飲料大小",
+                        "Options": [
+                            {
+                                "Name": "小",
+                                "AddPrice": 0
+                            },
+                            {
+                                "Name": "中",
+                                "AddPrice": 5
+                            },
+                            {
+                                "Name": "大",
+                                "AddPrice": 10
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ID": 110,
+                "Name": "鮮奶茶",
+                "Price": 30,
+                "AddOn": [
+                    {
+                        "Name": "飲料大小",
+                        "Options": [
+                            {
+                                "Name": "中",
+                                "AddPrice": 0
+                            },
+                            {
+                                "Name": "大",
+                                "AddPrice": 5
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ID": 111,
+                "Name": "鮮奶綠",
+                "Price": 30,
+                "AddOn": [
+                    {
+                        "Name": "飲料大小",
+                        "Options": [
+                            {
+                                "Name": "中",
+                                "AddPrice": 0
+                            },
+                            {
+                                "Name": "大",
+                                "AddPrice": 5
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ID": 112,
+                "Name": "研磨冰咖啡",
+                "Price": 30,
+                "AddOn": [
+                    {
+                        "Name": "飲料大小",
+                        "Options": [
+                            {
+                                "Name": "中",
+                                "AddPrice": 0
+                            },
+                            {
+                                "Name": "大",
+                                "AddPrice": 5
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ID": 113,
+                "Name": "研磨熱咖啡",
+                "Price": 35
+            }
+        ]
+    }
+]

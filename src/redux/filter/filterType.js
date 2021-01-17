@@ -1,0 +1,3 @@
+export const FILTER_ALL = 'FILTER_ALL'
+export const FILTER_BY_CATEGORY = 'FILTER_BY_CATEGORY'
+export const FILTER_BY_SEARCH = 'FILTER_BY_SEARCH'
