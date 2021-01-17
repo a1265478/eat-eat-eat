@@ -41,7 +41,7 @@ function OrderDetails() {
 
             </div>
             <div className='detail'>
-                <div className='title'>付款狀態 現場付款</div>
+                <div className='title'>付款狀態 {userStore.payway}</div>
             </div>
             <div className='detail'>
                 <div className='title'>訂購明細</div>

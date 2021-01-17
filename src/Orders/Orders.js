@@ -133,14 +133,15 @@ function Orders() {
     }
 
     const paymentHandler = () => {
+        if (shoppingCarStore.totalPrice <= 0) {
+            alert('請選擇商品')
+            return
+        }
         if (userStore.payway === 'CASH') {
             console.log('cash')
             // window.location.href = window.location.origin + '/details'
         } else {
-            if (shoppingCarStore.totalPrice <= 0) {
-                alert('請選擇商品')
-                return
-            }
+
             const config = {
                 headers: {
                     'Content-Type': 'application/json'
@@ -220,11 +221,7 @@ function Orders() {
                 }}>
                     <Button style={{ borderRadius: '5px', border: 'none', background: '#E8E8E8', color: '#000000' }} onClick={handleConfirmClose}>取消</Button>
                     {/* <Button style={{ borderRadius: '5px', border: 'none', background: '#DF463F', color: '#FFFFFF' }} onClick={paymentHandler}>確定</Button> */}
-                    {userStore.payway === 'CASH' ?
-                        <Link to="/details" style={style.confirmButton} onClick={paymentHandler}>確定</Link>
-                        : <Button style={style.confirmButton} onClick={paymentHandler}>確定</Button>}
-                    {/* <Link to="/details" style={style.confirmButton} onClick={paymentHandler}>確定</Link>
-                    <Button style={style.confirmButton} onClick={paymentHandler}>確定</Button> */}
+                    <Link to="/details" style={style.confirmButton} onClick={paymentHandler}>確定</Link>
                 </DialogActions>
             </Dialog>
         )
