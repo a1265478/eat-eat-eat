@@ -220,7 +220,11 @@ function Orders() {
                 }}>
                     <Button style={{ borderRadius: '5px', border: 'none', background: '#E8E8E8', color: '#000000' }} onClick={handleConfirmClose}>取消</Button>
                     {/* <Button style={{ borderRadius: '5px', border: 'none', background: '#DF463F', color: '#FFFFFF' }} onClick={paymentHandler}>確定</Button> */}
-                    <Link to="/details" style={style.confirmButton} onClick={paymentHandler}>確定</Link>
+                    {userStore.payway === 'CASH' ?
+                        <Link to="/details" style={style.confirmButton} onClick={paymentHandler}>確定</Link>
+                        : <Button style={style.confirmButton} onClick={paymentHandler}>確定</Button>}
+                    {/* <Link to="/details" style={style.confirmButton} onClick={paymentHandler}>確定</Link>
+                    <Button style={style.confirmButton} onClick={paymentHandler}>確定</Button> */}
                 </DialogActions>
             </Dialog>
         )
