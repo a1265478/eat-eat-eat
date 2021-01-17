@@ -14,22 +14,31 @@ import ShoppingCar from './components/ShoppingCar'
 import OrderAgainListView from './components/OrderAgainListView'
 import axios from 'axios'
 import '../const'
-import { ORIGIN_URI } from '../const';
+import { CLOSE_TIME_HOUR, OPEN_TIME_HOUR, ORIGIN_URI } from '../const';
 
 function Menu() {
     const [isOpen, setIsOpen] = useState(true)
+    const [isOpenTime, setIsOpenTime] = useState(false)
     const [isHere, setIsHere] = useState(false)
     const userStore = useSelector(state => state.userStore)
-    console.log(userStore)
     const dispatch = useDispatch()
 
     useEffect(() => {
         dispatch(listAllCategories())
         dispatch(listAllFoods())
         setIsOpen(userStore.orderWay === '')
-        getUser()
-    }, [dispatch])
+        setIsOpenTime(checkOpenTime())
+        // getUser()
+    }, [dispatch, isOpenTime])
 
+    function checkOpenTime(params) {
+        var today = new Date().getHours();
+        if (today >= OPEN_TIME_HOUR && today <= CLOSE_TIME_HOUR) {
+            return true
+        } else {
+            return false
+        }
+    }
 
     const changeOrderWay = (e) => {
         dispatch(setOrderWay(e.target.innerText))
@@ -67,27 +76,23 @@ function Menu() {
 
     function HereOrTogoDialog() {
         return (<Dialog
-            open={isOpen}
+            open={true}
             aria-labelledby="alert-dialog-title"
             aria-describedby="alert-dialog-description"
         >
-            <DialogTitle id="alert-dialog-title">訂購方式</DialogTitle>
+            <DialogTitle id="alert-dialog-title">非營業時間</DialogTitle>
             <DialogContent>
-                <button className='OrderWay' onClick={changeOrderWay}>內用</button>
-                <button className='OrderWay' onClick={changeOrderWay}>外帶</button>
-                <button className='OrderWay' onClick={changeOrderWay}>外送</button>
+                <h3>{`營業時間:${OPEN_TIME_HOUR}~${CLOSE_TIME_HOUR}`}</h3>
             </DialogContent>
 
         </Dialog>)
     }
     return (
         <div>
+            { !isOpenTime && <HereOrTogoDialog />}
             {/* <HereOrTogoDialog /> */}
             <Navbar />
             <SearchBar />
-            {isHere && (<div>
-                <h3>Table</h3>
-            </div>)}
             {userStore.isAtOrderAgain ? <OrderAgainListView /> : <FoodListContainer />}
             {/* <FoodListContainer /> */}
             <ShoppingCar />
