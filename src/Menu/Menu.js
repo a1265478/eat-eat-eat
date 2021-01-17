@@ -89,7 +89,7 @@ function Menu() {
     }
     return (
         <div>
-            { !isOpenTime && <HereOrTogoDialog />}
+            {/* { !isOpenTime && <HereOrTogoDialog />} */}
             {/* <HereOrTogoDialog /> */}
             <Navbar />
             <SearchBar />

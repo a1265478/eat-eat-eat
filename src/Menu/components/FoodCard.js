@@ -12,6 +12,7 @@ import Button from '@material-ui/core/Button';
 import Numeric from './Numeric'
 import { useSelector, useDispatch } from "react-redux";
 import { addToShoppingCar, updateQuantity } from '../../redux/shoppingCar/shoppingCarActions'
+import CardMedia from '@material-ui/core/CardMedia';
 
 
 function FoodCard(props) {
@@ -52,7 +53,12 @@ function FoodCard(props) {
             padding: '0px 0px',
             margin: '0 auto',
             borderRadius: '50%'
-        }
+        },
+        media: {
+            width: '100px',
+            height: '100px'
+        },
+
 
     });
 
@@ -143,7 +149,7 @@ function FoodCard(props) {
         if (food.AddOns.find(option => option.optionID === currentOption._id) !== undefined) {
             setFood({
                 ...food,
-                Price: food.Price,//?????
+                Price: food.Price,
                 AddOns: food.AddOns.map(option => {
                     if (option.optionID !== currentOption._id) {
                         return option;
@@ -237,7 +243,13 @@ function FoodCard(props) {
                                     ${props.food.Price}
                                 </Typography>
                             </CardContent>
+
                         </div>
+                        <CardMedia
+                            className={classes.media}
+                            image="http://via.placeholder.com/100x100"
+                            title="Paella dish"
+                        />
                     </Card>
                 </CardActionArea>
             </Grid>

@@ -17,7 +17,7 @@ function FoodListContainer() {
 
     return (
         <div style={{ margin: '10px 10px 100px 10px' }}>
-            <Typography style={{ fontSize: '30px', textAlign: 'center', fontWeight: 'bold', margin: '8px' }}>{filterFoodsStore.currentFilter}</Typography>
+            <Typography style={{ fontSize: '30px', textAlign: 'center', fontWeight: 'bold', margin: '8px' }}>{filterFoodsStore.currentFilter === 'ALL' ? '全部產品' : filterFoodsStore.currentFilter}</Typography>
             <Grid container spacing={4}>
                 {filterFoodsStore.foodsList.map((food) => (
                     <FoodCardList key={food.FoodID} food={food} />
