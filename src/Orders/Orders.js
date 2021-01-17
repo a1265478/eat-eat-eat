@@ -137,6 +137,10 @@ function Orders() {
             console.log('cash')
             // window.location.href = window.location.origin + '/details'
         } else {
+            if (shoppingCarStore.totalPrice <= 0) {
+                alert('請選擇商品')
+                return
+            }
             const config = {
                 headers: {
                     'Content-Type': 'application/json'
@@ -153,7 +157,9 @@ function Orders() {
                     }
                 ]
             }
-            axios.post(`${DEFAULT_API_URI}/payment/linepay`, JSON.stringify(order), config)
+
+            const cors = 'https://cors-anywhere.herokuapp.com/';
+            axios.post(`${cors}${DEFAULT_API_URI}/payment/linepay`, JSON.stringify(order), config)
                 .then((res) => {
                     if (res.data.info.paymentUrl !== undefined) {
                         window.location.href = res.data.info.paymentUrl.web
@@ -161,7 +167,10 @@ function Orders() {
                         alert('Please try again.')
                     }
                 })
-                .catch(err => alert('Please try again.'))
+                .catch(err => {
+                    console.log(err)
+                    alert('Please try again.')
+                })
         }
     }
 

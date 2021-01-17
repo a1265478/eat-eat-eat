@@ -17,7 +17,7 @@ function MenuDirector() {
         const params = new URLSearchParams()
         params.append('grant_type', 'authorization_code')
         params.append('code', currectCode)
-        params.append('redirect_uri', `${ORIGIN_URI}menu`)
+        params.append('redirect_uri', `${ORIGIN_URI}orders`)
         params.append('client_id', CLIENT_ID)
         params.append('client_secret', '32a9033ad4cc7c022582395c2d54f340')
 
@@ -48,6 +48,7 @@ function MenuDirector() {
             return false
         }
     }
+
     useEffect(() => {
         setIsOpenTime(checkOpenTime())
     }, [isOpenTime])
@@ -56,11 +57,11 @@ function MenuDirector() {
         // window.location.href = url.origin + '/menu'
         if (currentCode === null) {
             console.log('direct to line')
-            window.location.href = `https://access.line.me/oauth2/v2.1/authorize?response_type=code&client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&state=${state}&scope=openid%20profile`
+            window.location.href = `https://access.line.me/oauth2/v2.1/authorize?response_type=code&client_id=${CLIENT_ID}&redirect_uri=${'http://localhost:3000/eat-eat-eat/#/menu'}&state=${state}&scope=openid%20profile`
         } else {
             url = new URL(document.URL);
             currentCode = url.searchParams.get("code")
-            getUser(currentCode)
+            // getUser(currentCode)
         }
     }
     return (
