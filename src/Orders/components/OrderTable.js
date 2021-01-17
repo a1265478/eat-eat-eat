@@ -12,7 +12,7 @@ import Grid from '@material-ui/core/Grid'
 function OrderTable(props) {
     const style = {
         container: {
-            width: '90%',
+            width: '100%',
             maxWidth: '768px',
             margin: '0 auto',
             justifyContent: 'center',
