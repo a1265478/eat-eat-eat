@@ -117,7 +117,7 @@ export default function CustomDatetimePicker() {
                 return '五'
             case 6:
                 return '六'
-            case 7:
+            case 0:
                 return '日'
             default:
                 break;

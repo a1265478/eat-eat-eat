@@ -17,8 +17,9 @@ export const listCategoriesFailure = (error) => {
 }
 
 export const listAllCategories = () => {
+    const cors = 'https://cors-anywhere.herokuapp.com/';
     return (dispatch) => {
-        axios.get(`${DEFAULT_API_URI}categories`)
+        axios.get(`${cors}${DEFAULT_API_URI}categories`)
             .then((response) => {
                 const categories = response.data.map(category => (
                     {

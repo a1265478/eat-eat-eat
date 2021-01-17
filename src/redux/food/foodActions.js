@@ -26,8 +26,9 @@ export const listFoodsByCategory = (filter) => {
 }
 
 export const listAllFoods = () => {
+    const cors = 'https://cors-anywhere.herokuapp.com/';
     return (dispatch) => {
-        axios.get(`${DEFAULT_API_URI}foods`)
+        axios.get(`${cors}${DEFAULT_API_URI}foods`)
             .then((response) => {
                 const foods = response.data.map(food => (
                     {
